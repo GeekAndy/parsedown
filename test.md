@@ -20,13 +20,15 @@
 ### 接口返回
 数据格式： json
 
-接口返回成功: 
+接口返回成功:
+
 字段名称 | 字段说明
 ---|---
 code | 成功代码值为0
 entry | 返回数据列表
 
 接口返回失败：
+
 字段名称 | 字段说明
 ---|---
 code | 错误代码
@@ -56,6 +58,7 @@ error | 错误信息
 #### 接口地址：http://material.leju.com/api/channel/get_platform_list
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -68,6 +71,7 @@ sign | 签名
 #### 接口地址：http://material.leju.com/api/channel/get_channel_list
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -80,6 +84,7 @@ sign | 签名
 #### 接口地址：http://material.leju.com/api/channel/get_position_list
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -92,6 +97,7 @@ sign | 签名
 #### 接口地址：http://material.leju.com/api/land_page/update_status
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -106,6 +112,7 @@ status | 整型，1启用，-1禁用
 #### 接口地址：http://material.leju.com/api/land_page/update_url_status
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -120,6 +127,7 @@ status | 整型，1启用，-1禁用
 #### 接口地址：http://material.leju.com/api/land_page/get_house_list
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -133,6 +141,7 @@ land_page_id | 整型，标准落地页id
 #### 接口地址：http://material.leju.com/api/land_page/add_house
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -143,6 +152,7 @@ user_name | B端账号
 house_list | 数组，楼盘列表
 
 house_list数组：
+
 key名称 | key说明
 ---|---
 hid | 整型，页面留资楼盘hid
@@ -158,6 +168,7 @@ belong_name | 所属推广楼盘名称，type为2时必选
 #### 接口地址：http://material.leju.com/api/land_page/delete_house
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -168,6 +179,7 @@ user_name | B端账号
 house_list | 数组，楼盘列表
 
 house_list数组：
+
 key名称 | key说明
 ---|---
 hid | 整型，页面留资楼盘hid
@@ -180,6 +192,7 @@ type | 页面留资楼盘类型, 1推广楼盘, 2竞品楼盘
 #### 接口地址：http://material.leju.com/api/land_page/update_base_data
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
@@ -194,6 +207,7 @@ is_ocpc | 整型，1是，-1否
 #### 接口地址：http://material.leju.com/api/material/get_download_url
 
 GET参数：
+
 参数名称 | 参数说明
 ---|---
 appkey | 固定值：1000000001
